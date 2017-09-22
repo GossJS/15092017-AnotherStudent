@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE list PUBLIC "PeterS" "http://kodaktor.ru/j/dtd_e4d2a">
+
+<list>
+  <most_frequent>095.213.218.035</most_frequent>
+
+  <ips>
+    <ip addr = "077.234.203.101" frequency = "20"/>
+    <ip addr = "081.222.086.058" frequency = "18"/>
+    <ip addr = "093.185.028.028" frequency = "5"/>
+    <ip addr = "178.069.049.121" frequency = "4"/>
+    <ip addr = "005.016.096.109" frequency = "2"/>
+  </ips>
+
+  <platforms>
+    <desktop>
+      <platform frequency = "100">Windows</platform>
+      <platform frequency = "12">Macintosh</platform>
+      <platform frequency = "6">Linux</platform>
+      <platform frequency = "2">AmigaOS</platform>
+      <platform frequency = "1">KolibriOS</platform>
+    </desktop>
+
+    <mobile>
+      <platform frequency  = "40">Android</platform>
+      <platform frequency  = "24">iOS</platform>
+      <platform frequency  = "3">Windows Mobile</platform>
+      <platform frequency  = "1">Symbian</platform>
+    </mobile>
+  </platforms>
+</list>
