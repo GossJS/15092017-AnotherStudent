@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<!ELEMENT list (most_frequent|ips|platforms)+>
+
+<!ELEMENT most_frequent (#PCDATA)>
+
+<!ELEMENT ips (ip)+>
+
+<!ELEMENT ip (#PCDATA)>
+<!ATTLIST ip addr CDATA #REQUIRED>
+<!ATTLIST ip frequency CDATA #REQUIRED>
+
+<!ELEMENT platforms (desktop|mobile)+>
+
+<!ELEMENT desktop (platform)+>
+<!ELEMENT mobile (platform)+>
+
+<!ELEMENT platform (#PCDATA)>
+<!ATTLIST platform frequency CDATA #REQUIRED>
