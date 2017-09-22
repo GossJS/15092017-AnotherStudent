@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE grid PUBLIC "PeterS" "http://kodaktor.ru/j/dtd_df9b4">
+
+<grid>
+   <student name = "Иванов">
+      <mark subj = "Мультимедиа">3</mark>
+      <mark subj = "Веб-дизайн">3</mark>
+      <mark subj = "Графика">5</mark>
+   </student>
+   <student name = "Петрова">
+      <mark subj = "Мультимедиа">3</mark>
+      <mark subj = "Веб-дизайн">4</mark>
+      <mark subj = "Графика">5</mark>
+      <mark subj = "Логика">5</mark>
+   </student>
+   <student name = "Сидоренко">
+      <mark subj = "Мультимедиа">3</mark>
+      <mark subj = "Веб-дизайн">4</mark>
+      <mark subj = "Графика">5</mark>
+      <mark subj = "Логика">4</mark>
+   </student>
+</grid>
