@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "Максимально строгая JSON Schema - проверяющая в том числе и типы.",
+  "type": "object",
+  "properties":
+  {
+    "type":
+    {
+      "pattern": "^studentArray$"
+    },
+    "students":
+    {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items":
+      {
+        "properties":
+        {
+          "type":
+          {
+            "pattern": "^student$"
+          },
+          "name":
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          "subjArray":
+          {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items":
+            {
+              "properties":
+              {
+                "type":
+                {
+                  "pattern": "^subj$"
+                },
+                "name":
+                {
+                  "type": "string",
+                  "minLength": 1  
+                },
+                "value":
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 1
+                }
+              },
+              "required":["name", "value", "type"]
+            }
+          }
+        },
+        "required":["name", "subjArray", "type"]
+      }
+    }
+  },
+  "required": ["students", "type"]
+}
