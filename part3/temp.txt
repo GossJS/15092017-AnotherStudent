@@ -12,8 +12,8 @@
         },
         {
           "type": "subj",
-          "name": "Мультимедиа",
-          "value": "3" 
+          "name": "Веб-дизайн",
+          "value": "4" 
         }
       ]
     },
@@ -24,12 +24,33 @@
         {
           "type": "subj",
           "name": "Мультимедиа",
+          "value": "3" 
+        },
+        {
+          "type": "subj",
+          "name": "Веб-дизайн",
+          "value": "5" 
+        }
+      ]
+    },
+    {
+      "type": "student",
+      "name": "Сидоренко",
+      "subjArray": [
+        {
+          "type": "subj",
+          "name": "Мультимедиа",
           "value": "4" 
         },
         {
           "type": "subj",
           "name": "Веб-дизайн",
-          "value": "4" 
+          "value": "5" 
+        },
+        {
+          "type": "subj",
+          "name": "Программирование",
+          "value": "5" 
         }
       ]
     }
